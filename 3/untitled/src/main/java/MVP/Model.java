@@ -28,7 +28,7 @@ public class Model {
             bufferedWriter.close();
 
         } catch (IOException e) {
-            throw new RuntimeException(Arrays.toString(e.getStackTrace()));
+            e.printStackTrace();
         }
     }
 

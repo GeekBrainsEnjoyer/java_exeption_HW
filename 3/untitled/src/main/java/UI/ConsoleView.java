@@ -18,7 +18,7 @@ public class ConsoleView implements View {
     }
 
     @Override
-    public String getData() {
+    public String getBirthday() {
         System.out.println("Укажите дату рождения формата dd.mm.yyyy: ");
         return sc.nextLine();
     }

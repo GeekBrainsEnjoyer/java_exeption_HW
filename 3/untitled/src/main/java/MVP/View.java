@@ -2,7 +2,7 @@ package MVP;
 
 public interface View {
     String getFIO();
-    String getData();
+    String getBirthday();
     String getPhone();
     String getGender();
 

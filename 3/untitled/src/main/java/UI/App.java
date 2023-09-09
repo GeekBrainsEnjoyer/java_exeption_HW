@@ -24,6 +24,7 @@ public class App {
                         break;
 
                     case "0":
+                        System.out.println("Окончание работы.");
                         working = false;
                         break;
 
